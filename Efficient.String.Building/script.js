@@ -9,6 +9,7 @@ function fn (arr) {
     return ans.join("")
 }
 
+// In JavaScript, benchmarking shows that concatenation with += is faster than using .join().
 
 function fn (arr) {
     let ans = "";
